@@ -1,0 +1,473 @@
+/*--------- Partie de la nav ----------*/
+
+
+nav {
+    align-items: center;
+    padding: 1rem 0;
+    /*-couleur et largeur de la nav-*/
+    width: 100%;
+    /*-mise en page du texte-*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.linav{
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.anav:hover{
+    color: #F96511;
+}
+
+nav ul {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+
+nav ul li a {
+    color: #205C9A;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+ol{
+    list-style-type: decimal;
+    color: black;
+    margin-left: 30px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+  
+    text-decoration: none;
+    }
+#logo{
+     width:100px;
+    float:left;
+    position:absolute;
+}
+
+    
+body {
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- Page Index.html ----------*/
+.textepresentation{
+    margin-top: 200px;
+}
+
+
+/*--------- Partie   ----------*/
+.sous-titre {
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: "roboto" ;
+/*--------pour que le texte se mettre au dessus de l'image-------*/
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+.sous-titre2{
+    text-align: center;
+    margin-left:150px ;
+    margin-right: 150px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: "roboto" ;
+    /*--------pour que le texte se mettre au dessus de l'image-------*/
+    position: relative;
+}
+
+.espacement{
+    margin-top: 70px;
+}
+
+/*------------------------- Partie section  --------------------*/
+h1 {
+    transform: translate(-0%, 50%);
+    margin: top 50em;
+    font-family: "Montserrat", sans-serif;
+    color: #205C9A;
+    border-radius: 3em;
+    border-width: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: center;
+    /*----pour que le texte se mettre au dessus de l'image---*/
+    position: relative;
+}
+
+h2 {
+    margin: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: #205C9A;
+    border-radius: 3em;
+    border-width: 3em;
+}
+
+.couleurh2 {
+    color: #F96511;
+}
+
+.leader {
+    color:#205C9A;
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    margin: 12px;
+}
+
+/*---- Encadrer 1 qui est vers la gauche ----*/
+.contenu1{
+    max-width: 50%;
+    margin-top: 400px;
+    margin-left: 15px;
+    margin-right: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    /*---- Permet de mettre un effet ombre ----*/
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    font-family: "roboto" ;
+    background-color:#F96511;
+}
+
+/*---- Encadrer 1 qui est vers la droite : la photo----*/
+.videochanson {
+    margin-left: 800px;
+    margin-top: -780px;
+    border-radius: 10%;
+    margin-right: 20px;
+    height: 700px;
+}
+
+
+/*---- Encadrer ----*/
+.partie1 {
+    margin-left: 15px;
+    margin-right: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    /*---- Permet de mettre un effet ombre ----*/
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    font-family: "roboto" ;
+    background-color: #F96511; 
+}
+
+
+/*----Liens externe------*/
+.liens {
+    color:#205C9A;
+    text-decoration: none;
+}
+
+.liens:hover {
+    color: aliceblue;
+}
+
+/*------ Partie tableau ------*/
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #205C9A;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
+
+thead {
+    color: #F96511;
+    background-color: #205C9A;
+    font-family: "Montserrat", sans-serif;
+}
+
+td {
+    border: 1px solid #205C9A;
+    padding: 8px 10px;
+}
+
+td :last-of-type {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------- Page Innovation.html ------------*/
+.bodyinnovation {
+    /*----cadrage de l'image---*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.liens1 {
+    color: black; 
+}
+.liens1:hover {
+    color: aliceblue;
+}
+
+.image1 {
+    width: 100%;
+    height: 790px;
+    justify-content: center;
+/*--------pour que l'image se mettre en bas de l'image-------*/
+position: absolute;
+opacity: 60%;
+}
+
+.videocerveau {
+    max-width: 90%;
+    margin-top: -500px;
+    margin-left: -700px;
+    margin-right: 40px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    /*---- Permet de mettre un effet ombre ----*/
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    height: 400px;
+    background-color:black;
+}
+/*---- Encadrer ----*/
+.contenu2 {
+    margin-top: 400px;
+    margin-left: 60px;
+    margin-right: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    /*---- Permet de mettre un effet ombre ----*/
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    font-family: "roboto" ;
+    background-color:#205C9A; 
+}
+/*---- Encadrer 2 qui est vers la droite ----*/
+.partie2 {
+    max-width: 50%;
+    margin-top: 15px;
+    margin-left: 715px;
+    margin-right: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    /*---- Permet de mettre un effet ombre ----*/
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    font-family: "roboto" ;
+    background-color:#205C9A;
+}
+
+.h2color {
+color: black;
+}
+
+.footer2 {
+   padding:10px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color:#205C9A;
+    color:black;
+    font-family: "roboto";
+
+}
+.mailto2 {
+    
+    text-decoration: none;
+    color:black;
+}
+
+.mailto2:hover{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- Page Évolution.html -------------*/
+
+.bodyevolution {
+    /*----cadrage de l'image---*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height: 100vh;
+}
+/*---- Encadrer ----*/
+.contenu3 {
+    margin-top: 400px;
+    margin-left: 60px;
+    margin-right: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    /*---- Permet de mettre un effet ombre ----*/
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    font-family: "roboto" ;
+    background-color:#F96511; 
+}
+
+.marrakechimg {
+    margin-left: -670px;
+    margin-top: -800px;
+    border-radius: 10%;
+    margin-right: 20px;
+    height: 400px;
+}
+
+/*---- Encadrer 2 qui est vers la gauche ----*/
+.partie3 {
+    max-width: 50%;
+    margin-top: 15px;
+    margin-left: 715px;
+    margin-right: 15px;
+    padding: 30px;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    /*---- Permet de mettre un effet ombre ----*/
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    font-family: "roboto" ;
+    background-color:#F96511;
+}
+
+.partie4 {
+    margin-left: 60px;
+    margin-right: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    /*---- Permet de mettre un effet ombre ----*/
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    font-family: "roboto" ;
+    background-color:#F96511; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------- Partie Pied de page ---------------*/
+.vershaut {
+    /* aligner un élément à droit */
+    float: right;
+    text-decoration: none;
+    color: #205C9A;
+    font-family: "roboto" ;
+    margin-top: -10px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+
+
+/*---- Pied de page pour la page Index et Evolution----*/
+.footer1 {
+    text-align: center;
+    height: 100px;
+    padding:100px;
+    width: 100%;
+    background-color: #F96511;
+    color: #205C9A;
+    font-family: "roboto";
+}
+.mailto1 {
+    text-decoration: none;
+    color: #205C9A;
+}
+.mailto1:hover{
+    color: aliceblue;
+}
+
+
+
+
+/*---- Pied de page pour la page Innovation ----*/
+.footer2 {
+    text-align: center;
+    height: 100px;
+    padding:10px;
+    width: 100%;
+    background-color:#205C9A;
+    color:black;
+    font-family: "roboto";
+}
+.mailto2 {
+    text-decoration: none;
+    color:black;
+}
+.mailto2:hover{
+    color: aliceblue;
+}
