@@ -176,10 +176,10 @@ p {
 /*---- Encadrer 1 qui est vers la droite : la photo----*/
 .videochanson {
     margin-left: 800px;
-    margin-top: -700px;
+    margin-top: -780px;
     border-radius: 10%;
     margin-right: 20px;
-    height: 500px;
+    height: 400px;
 }
 
 
